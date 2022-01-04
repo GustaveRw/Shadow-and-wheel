@@ -1,19 +1,23 @@
-# frontend-test
-Coding skill and style test submission for Thunderbite Frontend Game Developer
+# Showdown and Wheel
+
+### Description
+
+
+Coding tests for Thunderbite Frontend Game Developer.
 
 ---
 
-### Install
+### How to run this repo locally
 ```sh
-npm install
+1. npm install
 ```
 
-### Start
+
 ```sh
-npm start
+2. npm run start
 ```
 
-### Dev Build & Hot Server
+### Dev Build & Server
 ```sh
 npm run start:dev
 ```
@@ -22,3 +26,14 @@ npm run start:dev
 ```sh
 npm run build
 ```
+
+#### Preview
+
+![2022-01-04 (1)](https://user-images.githubusercontent.com/48301305/147996798-80115c40-66f5-412d-bdb1-0197fbad123d.png)
+
+
+---
+
+### Author :
+
+#### Jean Marie Gustave MBONYINSHUTI
