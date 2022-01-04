@@ -1,0 +1,1246 @@
+{
+  "errors": [],
+  "warnings": [
+    "asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).\nThis can impact web performance.\nAssets: \n  bundle.js (322 KiB)",
+    "entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.\nEntrypoints:\n  main (322 KiB)\n      bundle.js\n",
+    "webpack performance recommendations: \nYou can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.\nFor more info visit https://webpack.js.org/guides/code-splitting/"
+  ],
+  "modules": [
+    {
+      "id": 0,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\mini-signals\\lib\\mini-signals.js",
+      "name": "./node_modules/mini-signals/lib/mini-signals.js",
+      "index": 38,
+      "index2": 34,
+      "size": 4475,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\resource-loader\\dist\\resource-loader.esm.js",
+      "issuerId": null,
+      "issuerName": "./node_modules/resource-loader/dist/resource-loader.esm.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\loaders\\lib\\loaders.es.js",
+          "name": "./node_modules/@pixi/loaders/lib/loaders.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\resource-loader\\dist\\resource-loader.esm.js",
+          "name": "./node_modules/resource-loader/dist/resource-loader.esm.js",
+          "profile": {
+            "factory": 419,
+            "building": 34
+          }
+        }
+      ],
+      "profile": {
+        "factory": 34,
+        "building": 6
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 1,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\ismobilejs\\dist\\isMobile.min.js",
+      "name": "./node_modules/ismobilejs/dist/isMobile.min.js",
+      "index": 12,
+      "index2": 7,
+      "size": 1550,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\@pixi\\settings\\lib\\settings.es.js",
+      "issuerId": null,
+      "issuerName": "./node_modules/@pixi/settings/lib/settings.es.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\settings\\lib\\settings.es.js",
+          "name": "./node_modules/@pixi/settings/lib/settings.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        }
+      ],
+      "profile": {
+        "factory": 24,
+        "building": 56
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 2,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\webpack\\buildin\\global.js",
+      "name": "(webpack)/buildin/global.js",
+      "index": 3,
+      "index2": 0,
+      "size": 472,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\@pixi\\polyfill\\lib\\polyfill.es.js",
+      "issuerId": 9,
+      "issuerName": "./node_modules/@pixi/polyfill/lib/polyfill.es.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": 9,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\polyfill\\lib\\polyfill.es.js",
+          "name": "./node_modules/@pixi/polyfill/lib/polyfill.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        }
+      ],
+      "profile": {
+        "factory": 465,
+        "building": 7,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 3,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\url\\url.js",
+      "name": "./node_modules/url/url.js",
+      "index": 15,
+      "index2": 17,
+      "size": 23317,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\@pixi\\utils\\lib\\utils.es.js",
+      "issuerId": null,
+      "issuerName": "./node_modules/@pixi/utils/lib/utils.es.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\utils\\lib\\utils.es.js",
+          "name": "./node_modules/@pixi/utils/lib/utils.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        }
+      ],
+      "profile": {
+        "factory": 392,
+        "building": 52
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 4,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\parse-uri\\index.js",
+      "name": "./node_modules/parse-uri/index.js",
+      "index": 37,
+      "index2": 33,
+      "size": 994,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\resource-loader\\dist\\resource-loader.esm.js",
+      "issuerId": null,
+      "issuerName": "./node_modules/resource-loader/dist/resource-loader.esm.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\loaders\\lib\\loaders.es.js",
+          "name": "./node_modules/@pixi/loaders/lib/loaders.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\resource-loader\\dist\\resource-loader.esm.js",
+          "name": "./node_modules/resource-loader/dist/resource-loader.esm.js",
+          "profile": {
+            "factory": 419,
+            "building": 34
+          }
+        }
+      ],
+      "profile": {
+        "factory": 34,
+        "building": 6
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 5,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\utils\\node_modules\\eventemitter3\\index.js",
+      "name": "./node_modules/@pixi/utils/node_modules/eventemitter3/index.js",
+      "index": 13,
+      "index2": 9,
+      "size": 9141,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\@pixi\\utils\\lib\\utils.es.js",
+      "issuerId": null,
+      "issuerName": "./node_modules/@pixi/utils/lib/utils.es.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\utils\\lib\\utils.es.js",
+          "name": "./node_modules/@pixi/utils/lib/utils.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        }
+      ],
+      "profile": {
+        "factory": 392,
+        "building": 52
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 6,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\earcut\\src\\earcut.js",
+      "name": "./node_modules/earcut/src/earcut.js",
+      "index": 14,
+      "index2": 10,
+      "size": 20322,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\@pixi\\utils\\lib\\utils.es.js",
+      "issuerId": null,
+      "issuerName": "./node_modules/@pixi/utils/lib/utils.es.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\utils\\lib\\utils.es.js",
+          "name": "./node_modules/@pixi/utils/lib/utils.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        }
+      ],
+      "profile": {
+        "factory": 392,
+        "building": 52
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 7,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\es6-promise-polyfill\\promise.js",
+      "name": "./node_modules/es6-promise-polyfill/promise.js",
+      "index": 4,
+      "index2": 4,
+      "size": 7112,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\@pixi\\polyfill\\lib\\polyfill.es.js",
+      "issuerId": 9,
+      "issuerName": "./node_modules/@pixi/polyfill/lib/polyfill.es.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": 9,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\polyfill\\lib\\polyfill.es.js",
+          "name": "./node_modules/@pixi/polyfill/lib/polyfill.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        }
+      ],
+      "profile": {
+        "factory": 465,
+        "building": 7,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 8,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\object-assign\\index.js",
+      "name": "./node_modules/object-assign/index.js",
+      "index": 8,
+      "index2": 5,
+      "size": 2108,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\@pixi\\polyfill\\lib\\polyfill.es.js",
+      "issuerId": 9,
+      "issuerName": "./node_modules/@pixi/polyfill/lib/polyfill.es.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": 9,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\polyfill\\lib\\polyfill.es.js",
+          "name": "./node_modules/@pixi/polyfill/lib/polyfill.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        }
+      ],
+      "profile": {
+        "factory": 465,
+        "building": 7,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 9,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\polyfill\\lib\\polyfill.es.js",
+      "name": "./node_modules/@pixi/polyfill/lib/polyfill.es.js",
+      "index": 2,
+      "index2": 6,
+      "size": 3855,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+      "issuerId": null,
+      "issuerName": "./node_modules/pixi.js/lib/pixi.es.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        }
+      ],
+      "profile": {
+        "factory": 53,
+        "building": 421,
+        "dependencies": 387
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 10,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\timers-browserify\\main.js",
+      "name": "./node_modules/timers-browserify/main.js",
+      "index": 5,
+      "index2": 3,
+      "size": 2022,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\es6-promise-polyfill\\promise.js",
+      "issuerId": 7,
+      "issuerName": "./node_modules/es6-promise-polyfill/promise.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": 9,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\polyfill\\lib\\polyfill.es.js",
+          "name": "./node_modules/@pixi/polyfill/lib/polyfill.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        },
+        {
+          "id": 7,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\es6-promise-polyfill\\promise.js",
+          "name": "./node_modules/es6-promise-polyfill/promise.js",
+          "profile": {
+            "factory": 465,
+            "building": 7,
+            "dependencies": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 54,
+        "building": 3,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 11,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\setimmediate\\setImmediate.js",
+      "name": "./node_modules/setimmediate/setImmediate.js",
+      "index": 6,
+      "index2": 2,
+      "size": 6475,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\timers-browserify\\main.js",
+      "issuerId": 10,
+      "issuerName": "./node_modules/timers-browserify/main.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": 9,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\polyfill\\lib\\polyfill.es.js",
+          "name": "./node_modules/@pixi/polyfill/lib/polyfill.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        },
+        {
+          "id": 7,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\es6-promise-polyfill\\promise.js",
+          "name": "./node_modules/es6-promise-polyfill/promise.js",
+          "profile": {
+            "factory": 465,
+            "building": 7,
+            "dependencies": 1
+          }
+        },
+        {
+          "id": 10,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\timers-browserify\\main.js",
+          "name": "./node_modules/timers-browserify/main.js",
+          "profile": {
+            "factory": 54,
+            "building": 3,
+            "dependencies": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 11,
+        "building": 5,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 12,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\process\\browser.js",
+      "name": "./node_modules/process/browser.js",
+      "index": 7,
+      "index2": 1,
+      "size": 5418,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\setimmediate\\setImmediate.js",
+      "issuerId": 11,
+      "issuerName": "./node_modules/setimmediate/setImmediate.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": 9,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\polyfill\\lib\\polyfill.es.js",
+          "name": "./node_modules/@pixi/polyfill/lib/polyfill.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        },
+        {
+          "id": 7,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\es6-promise-polyfill\\promise.js",
+          "name": "./node_modules/es6-promise-polyfill/promise.js",
+          "profile": {
+            "factory": 465,
+            "building": 7,
+            "dependencies": 1
+          }
+        },
+        {
+          "id": 10,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\timers-browserify\\main.js",
+          "name": "./node_modules/timers-browserify/main.js",
+          "profile": {
+            "factory": 54,
+            "building": 3,
+            "dependencies": 1
+          }
+        },
+        {
+          "id": 11,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\setimmediate\\setImmediate.js",
+          "name": "./node_modules/setimmediate/setImmediate.js",
+          "profile": {
+            "factory": 11,
+            "building": 5,
+            "dependencies": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 2,
+        "building": 3
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 13,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\node-libs-browser\\node_modules\\punycode\\punycode.js",
+      "name": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
+      "index": 16,
+      "index2": 12,
+      "size": 14670,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\url\\url.js",
+      "issuerId": 3,
+      "issuerName": "./node_modules/url/url.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\utils\\lib\\utils.es.js",
+          "name": "./node_modules/@pixi/utils/lib/utils.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        },
+        {
+          "id": 3,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\url\\url.js",
+          "name": "./node_modules/url/url.js",
+          "profile": {
+            "factory": 392,
+            "building": 52
+          }
+        }
+      ],
+      "profile": {
+        "factory": 10,
+        "building": 56,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 14,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\webpack\\buildin\\module.js",
+      "name": "(webpack)/buildin/module.js",
+      "index": 17,
+      "index2": 11,
+      "size": 497,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\node-libs-browser\\node_modules\\punycode\\punycode.js",
+      "issuerId": 13,
+      "issuerName": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\utils\\lib\\utils.es.js",
+          "name": "./node_modules/@pixi/utils/lib/utils.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        },
+        {
+          "id": 3,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\url\\url.js",
+          "name": "./node_modules/url/url.js",
+          "profile": {
+            "factory": 392,
+            "building": 52
+          }
+        },
+        {
+          "id": 13,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\node-libs-browser\\node_modules\\punycode\\punycode.js",
+          "name": "./node_modules/node-libs-browser/node_modules/punycode/punycode.js",
+          "profile": {
+            "factory": 10,
+            "building": 56,
+            "dependencies": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 18,
+        "building": 3
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 15,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\url\\util.js",
+      "name": "./node_modules/url/util.js",
+      "index": 18,
+      "index2": 13,
+      "size": 314,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\url\\url.js",
+      "issuerId": 3,
+      "issuerName": "./node_modules/url/url.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\utils\\lib\\utils.es.js",
+          "name": "./node_modules/@pixi/utils/lib/utils.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        },
+        {
+          "id": 3,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\url\\url.js",
+          "name": "./node_modules/url/url.js",
+          "profile": {
+            "factory": 392,
+            "building": 52
+          }
+        }
+      ],
+      "profile": {
+        "factory": 10,
+        "building": 56,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 16,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\querystring-es3\\index.js",
+      "name": "./node_modules/querystring-es3/index.js",
+      "index": 19,
+      "index2": 16,
+      "size": 127,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\url\\url.js",
+      "issuerId": 3,
+      "issuerName": "./node_modules/url/url.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\utils\\lib\\utils.es.js",
+          "name": "./node_modules/@pixi/utils/lib/utils.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        },
+        {
+          "id": 3,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\url\\url.js",
+          "name": "./node_modules/url/url.js",
+          "profile": {
+            "factory": 392,
+            "building": 52
+          }
+        }
+      ],
+      "profile": {
+        "factory": 10,
+        "building": 56,
+        "dependencies": 1
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 17,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\querystring-es3\\decode.js",
+      "name": "./node_modules/querystring-es3/decode.js",
+      "index": 20,
+      "index2": 14,
+      "size": 2510,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\querystring-es3\\index.js",
+      "issuerId": 16,
+      "issuerName": "./node_modules/querystring-es3/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\utils\\lib\\utils.es.js",
+          "name": "./node_modules/@pixi/utils/lib/utils.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        },
+        {
+          "id": 3,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\url\\url.js",
+          "name": "./node_modules/url/url.js",
+          "profile": {
+            "factory": 392,
+            "building": 52
+          }
+        },
+        {
+          "id": 16,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\querystring-es3\\index.js",
+          "name": "./node_modules/querystring-es3/index.js",
+          "profile": {
+            "factory": 10,
+            "building": 56,
+            "dependencies": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 27,
+        "building": 4
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 18,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\querystring-es3\\encode.js",
+      "name": "./node_modules/querystring-es3/encode.js",
+      "index": 21,
+      "index2": 15,
+      "size": 2544,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": "D:\\dev\\frontend-test\\node_modules\\querystring-es3\\index.js",
+      "issuerId": 16,
+      "issuerName": "./node_modules/querystring-es3/index.js",
+      "issuerPath": [
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js",
+          "name": "./src/index.js",
+          "profile": {
+            "factory": 29,
+            "building": 1191
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\pixi.js\\lib\\pixi.es.js",
+          "name": "./node_modules/pixi.js/lib/pixi.es.js",
+          "profile": {
+            "factory": 8,
+            "building": 48
+          }
+        },
+        {
+          "id": null,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\@pixi\\utils\\lib\\utils.es.js",
+          "name": "./node_modules/@pixi/utils/lib/utils.es.js",
+          "profile": {
+            "factory": 53,
+            "building": 421,
+            "dependencies": 387
+          }
+        },
+        {
+          "id": 3,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\url\\url.js",
+          "name": "./node_modules/url/url.js",
+          "profile": {
+            "factory": 392,
+            "building": 52
+          }
+        },
+        {
+          "id": 16,
+          "identifier": "D:\\dev\\frontend-test\\node_modules\\querystring-es3\\index.js",
+          "name": "./node_modules/querystring-es3/index.js",
+          "profile": {
+            "factory": 10,
+            "building": 56,
+            "dependencies": 1
+          }
+        }
+      ],
+      "profile": {
+        "factory": 27,
+        "building": 4
+      },
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    },
+    {
+      "id": 19,
+      "identifier": "D:\\dev\\frontend-test\\node_modules\\babel-loader\\lib\\index.js??ref--4!D:\\dev\\frontend-test\\src\\index.js af08702e4f26a8002fa721a289c3c96a",
+      "name": "./src/index.js + 35 modules",
+      "index": 0,
+      "index2": 54,
+      "size": 1241619,
+      "cacheable": true,
+      "built": true,
+      "optional": false,
+      "prefetched": false,
+      "chunks": [
+        0
+      ],
+      "issuer": null,
+      "issuerId": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": false,
+      "errors": 0,
+      "warnings": 0
+    }
+  ],
+  "filteredModules": 0,
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 2,
+      "debug": false
+    }
+  }
+}
